@@ -21,22 +21,27 @@
      crossorigin="anonymous"></script>
 
   <style>
-    /* ✅ Style du bandeau cookies */
+    /* ✅ Bandeau cookies */
     #cookie-banner {
       position: fixed;
       bottom: 15px;
       left: 50%;
       transform: translateX(-50%);
-      background: rgba(0,0,0,0.85);
+      background: rgba(0, 0, 0, 0.85);
       color: #fff;
       padding: 15px 25px;
       border-radius: 50px;
       display: none;
-      z-index: 9999;
+      z-index: 999; /* corrigé (avant 9999) */
       opacity: 0;
+      transition: opacity 0.6s ease;
     }
     #cookie-banner button {
       margin-left: 15px;
+    }
+    footer {
+      position: relative;
+      z-index: 2; /* s’assure que le footer reste cliquable */
     }
   </style>
 </head>
@@ -148,40 +153,39 @@
            data-ad-format="auto"
            data-full-width-responsive="true"></ins>
       <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      <p class="mt-3"><a href="privacy.html" class="text-decoration-none">Politique de confidentialité</a></p>
+      <p class="mt-3">
+        <a href="privacy.html" class="text-decoration-none text-primary fw-semibold">
+          Politique de confidentialité
+        </a>
+      </p>
     </div>
   </footer>
 
   <!-- ✅ JS Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- ✅ Script consentement cookies (version corrigée et fluide) -->
+  <!-- ✅ Script consentement cookies -->
   <script>
   document.addEventListener("DOMContentLoaded", function () {
     const banner = document.getElementById("cookie-banner");
     const acceptBtn = document.getElementById("acceptCookies");
 
-    // Affiche le bandeau uniquement si pas encore accepté
     if (!localStorage.getItem("cookiesAccepted")) {
       banner.style.display = "flex";
-      setTimeout(() => banner.style.opacity = "1", 100);
-
-      // Disparition automatique après 5 secondes
-      setTimeout(() => {
-        if (!localStorage.getItem("cookiesAccepted")) {
-          banner.style.transition = "opacity 0.6s ease";
-          banner.style.opacity = "0";
-          setTimeout(() => banner.style.display = "none", 600);
-        }
-      }, 5000);
+      setTimeout(() => (banner.style.opacity = "1"), 100);
     }
 
-    // Quand l’utilisateur clique sur “J’accepte”
     acceptBtn.addEventListener("click", function () {
       localStorage.setItem("cookiesAccepted", "true");
-      banner.style.transition = "opacity 0.6s ease";
       banner.style.opacity = "0";
-      setTimeout(() => banner.style.display = "none", 600);
+      setTimeout(() => (banner.style.display = "none"), 600);
+    });
+
+    // ✅ Masquer le bandeau si on clique sur le lien de politique
+    document.querySelectorAll('a[href="privacy.html"]').forEach((link) => {
+      link.addEventListener("click", () => {
+        banner.style.display = "none";
+      });
     });
   });
   </script>
