@@ -4,109 +4,65 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Opportunités Afrique – Bourses, Emplois & Stages</title>
-  <meta name="description" content="Découvrez les meilleures opportunités en Afrique et dans le monde : bourses d'études, emplois, stages, appels à projets et formations. Mise à jour quotidienne." />
+  <meta name="description" content="Découvrez les meilleures opportunités en Afrique et dans le monde : bourses, emplois, stages et appels à projets. Mise à jour quotidienne." />
   <meta property="og:title" content="Opportunités Afrique – Bourses, Emplois & Stages" />
   <meta property="og:description" content="Trouvez des opportunités réelles et vérifiées pour booster votre avenir." />
   <meta property="og:url" content="https://sakayo16.github.io/" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://sakayo16.github.io/opportunites-afrique-og.png" />
-
   <link rel="icon" type="image/png" href="favicon.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
-
-  <!-- ✅ Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2624639972261961"
-     crossorigin="anonymous"></script>
-
-  <style>
-    /* ✅ Bandeau cookies */
-    #cookie-banner {
-      position: fixed;
-      bottom: 15px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: rgba(0, 0, 0, 0.85);
-      color: #fff;
-      padding: 15px 25px;
-      border-radius: 50px;
-      display: none;
-      z-index: 999; /* corrigé (avant 9999) */
-      opacity: 0;
-      transition: opacity 0.6s ease;
-    }
-    #cookie-banner button {
-      margin-left: 15px;
-    }
-    footer {
-      position: relative;
-      z-index: 2; /* s’assure que le footer reste cliquable */
-    }
-  </style>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2624639972261961" crossorigin="anonymous"></script>
 </head>
 <body class="bg-light">
-
-  <!-- ✅ Bandeau cookies -->
-  <div id="cookie-banner" class="d-flex align-items-center flex-wrap justify-content-center text-center">
-    Ce site utilise des cookies pour afficher des annonces et améliorer votre expérience.
-    <a href="privacy.html" class="link-light text-decoration-underline ms-2">En savoir plus</a>
-    <button id="acceptCookies" class="btn btn-light btn-sm ms-2">J’accepte</button>
-  </div>
 
   <!-- ✅ Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm sticky-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">
-        <i class="bi bi-stars text-primary me-1"></i> Opportunités Afrique
+      <a class="navbar-brand fw-bold text-primary" href="index.html">
+        <i class="bi bi-stars me-1"></i> Opportunités Afrique
       </a>
-      <div class="d-none d-lg-block ms-auto" style="width:380px;">
-        <div class="input-group">
-          <span class="input-group-text bg-white"><i class="bi bi-search"></i></span>
-          <input id="searchInput" class="form-control" placeholder="Rechercher (mot-clé, pays, org...)" />
-        </div>
-      </div>
-      <a id="addBtn" class="btn btn-primary ms-2 rounded-pill d-none d-lg-inline-flex" href="#" target="_blank" rel="noopener">
-        <i class="bi bi-plus-circle me-1"></i> Ajouter
-      </a>
-    </div>
-  </nav>
-
-  <!-- ✅ Hero Section -->
-  <header class="py-5 text-center" style="background: linear-gradient(135deg, #0d6efd, #6610f2); color:white;">
-    <div class="container">
-      <h1 class="fw-bold mb-3">Opportunités Afrique</h1>
-      <p class="lead hero-subtitle mx-auto">
-        Le hub des <strong>bourses</strong>, <strong>emplois</strong>, <strong>stages</strong> et <strong>appels à projets</strong> pour étudiants, jeunes diplômés et professionnels africains.
-      </p>
-
-      <div class="mt-4">
-        <a href="https://www.facebook.com/sakayo.toadoum16/" target="_blank" class="btn btn-light btn-lg rounded-pill shadow-sm">
-          <i class="bi bi-facebook text-primary me-1"></i> Suivez-nous sur Facebook
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link fw-semibold active" href="index.html"><i class="bi bi-house-door me-1"></i> Accueil</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="about.html"><i class="bi bi-info-circle me-1"></i> À propos</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="contact.html"><i class="bi bi-envelope me-1"></i> Contact</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="privacy.html"><i class="bi bi-shield-lock me-1"></i> Confidentialité</a></li>
+        </ul>
+        <a href="https://www.facebook.com/sakayo.toadoum16/" target="_blank" class="btn btn-primary rounded-pill ms-lg-3">
+          <i class="bi bi-facebook me-1"></i> Suivez-nous
         </a>
       </div>
     </div>
+  </nav>
+
+  <!-- ✅ Hero -->
+  <header class="py-5 text-center" style="background: linear-gradient(135deg, #0d6efd, #6610f2); color:white;">
+    <div class="container">
+      <h1 class="fw-bold mb-3">Opportunités Afrique</h1>
+      <p class="lead">Bourses • Emplois • Stages • Formations • Appels à projets</p>
+      <a href="https://www.facebook.com/sakayo.toadoum16/" target="_blank" class="btn btn-light btn-lg rounded-pill shadow-sm mt-3">
+        <i class="bi bi-facebook text-primary me-1"></i> Rejoignez-nous
+      </a>
+    </div>
   </header>
 
-  <!-- ✅ Bloc pub sous le Hero -->
   <div class="container my-4">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-2624639972261961"
-         data-ad-slot="3463255401"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2624639972261961" data-ad-slot="3463255401" data-ad-format="auto" data-full-width-responsive="true"></ins>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </div>
 
-  <!-- ✅ Dernières opportunités -->
+  <!-- ✅ Section Opportunités -->
   <section class="py-4">
     <div class="container">
-      <h2 class="h4 fw-bold mb-3 text-primary">🌍 Dernières opportunités</h2>
-
-      <!-- Filtres -->
-      <div class="row g-2 mb-3">
-        <div class="col-6 col-md-3">
+      <h2 class="h4 fw-bold text-primary mb-3">🌍 Dernières opportunités</h2>
+      <div class="row g-3 mb-3">
+        <div class="col-md-3">
           <select id="typeFilter" class="form-select form-select-sm rounded-pill">
             <option value="">Tous les types</option>
             <option>Emploi</option>
@@ -116,81 +72,23 @@
             <option>Formation</option>
           </select>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-md-3">
           <input id="countryFilter" class="form-control form-control-sm rounded-pill" placeholder="Pays / Région" />
         </div>
       </div>
-
-      <div id="listFeed" class="row g-4">
-        <!-- Cartes chargées via JS -->
-      </div>
-    </div>
-  </section>
-
-  <!-- ✅ Section À propos -->
-  <section class="bg-white border-top py-5">
-    <div class="container text-center">
-      <h3 class="fw-bold mb-3">À propos d’Opportunités Afrique</h3>
-      <p class="mx-auto" style="max-width:720px;">
-        Nous aidons les étudiants, jeunes chercheurs, entrepreneurs et professionnels à trouver les meilleures
-        <strong>bourses, emplois, formations</strong> et <strong>appels à projets</strong> disponibles en Afrique et à l’international.
-        Rejoignez notre communauté et ne manquez plus aucune opportunité qui peut changer votre vie.
-      </p>
-      <a href="https://www.facebook.com/sakayo.toadoum16/" target="_blank" class="btn btn-primary rounded-pill mt-2">
-        <i class="bi bi-facebook me-1"></i> Rejoignez-nous sur Facebook
-      </a>
+      <div id="listFeed" class="row g-4"></div>
     </div>
   </section>
 
   <!-- ✅ Footer -->
-  <footer class="border-top py-4">
-    <div class="container text-center">
-      <p class="mb-2">© 2025 Opportunités Afrique – Bourses, Emplois & Stages</p>
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-2624639972261961"
-           data-ad-slot="3463255401"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      <p class="mt-3">
-        <a href="privacy.html" class="text-decoration-none text-primary fw-semibold">
-          Politique de confidentialité
-        </a>
-      </p>
-    </div>
+  <footer class="border-top py-4 text-center bg-white">
+    <p class="mb-2">© 2025 Opportunités Afrique – Bourses, Emplois & Stages</p>
+    <a href="privacy.html" class="text-decoration-none me-3">Politique de confidentialité</a> |
+    <a href="about.html" class="text-decoration-none mx-3">À propos</a> |
+    <a href="contact.html" class="text-decoration-none ms-3">Contact</a>
   </footer>
 
-  <!-- ✅ JS Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- ✅ Script consentement cookies -->
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const banner = document.getElementById("cookie-banner");
-    const acceptBtn = document.getElementById("acceptCookies");
-
-    if (!localStorage.getItem("cookiesAccepted")) {
-      banner.style.display = "flex";
-      setTimeout(() => (banner.style.opacity = "1"), 100);
-    }
-
-    acceptBtn.addEventListener("click", function () {
-      localStorage.setItem("cookiesAccepted", "true");
-      banner.style.opacity = "0";
-      setTimeout(() => (banner.style.display = "none"), 600);
-    });
-
-    // ✅ Masquer le bandeau si on clique sur le lien de politique
-    document.querySelectorAll('a[href="privacy.html"]').forEach((link) => {
-      link.addEventListener("click", () => {
-        banner.style.display = "none";
-      });
-    });
-  });
-  </script>
-
-  <!-- ✅ Script principal -->
   <script src="assets/js/app.js"></script>
 </body>
 </html>
