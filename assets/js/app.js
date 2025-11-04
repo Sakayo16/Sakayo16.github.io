@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const typeFilter = document.getElementById("typeFilter");
   const countryFilter = document.getElementById("countryFilter");
 
-  // ✅ Fonction pour afficher les opportunités
+  // ✅ Fonction d'affichage des opportunités
   function displayOpportunities(data) {
-    listFeed.innerHTML = ""; // nettoyage avant affichage
+    listFeed.innerHTML = ""; // Nettoyage avant affichage
 
     if (!data || data.length === 0) {
       listFeed.innerHTML = `<p class="text-center text-muted">Aucune opportunité trouvée.</p>`;
@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
       const col = document.createElement("div");
       col.className = "col-12 col-md-6 col-lg-4";
 
-      // ✅ carte affichée
+      // ✅ Carte affichée
       col.innerHTML = `
         <div class="card h-100 shadow-sm border-0">
-          <img src="${item.image}" class="card-img-top" alt="${item.title}" 
+          <img src="${item.image}" class="card-img-top" alt="${item.title}"
                style="height:200px; object-fit:cover;">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">${item.title}</h5>
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
               ${item.organization} – ${item.country}
             </p>
             <p class="card-text small">${item.description_short}</p>
-            <a href="opportunite.html?id=${encodeURIComponent(item.title)}" 
+            <a href="opportunite.html?id=${encodeURIComponent(item.title)}"
                class="btn btn-outline-primary btn-sm mt-auto rounded-pill">
               Détails <i class="bi bi-chevron-right ms-1"></i>
             </a>
@@ -49,9 +49,14 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   `;
 
-  // ✅ Chargement du fichier JSON
-  fetch("data/sample.json")
-    .then((res) => res.json())
+  // ✅ Chargement JSON (chemin ABSOLU GitHub Pages)
+  const jsonURL = "https://sakayo16.github.io/data/sample.json"; // ← à adapter si ton dépôt change
+
+  fetch(jsonURL)
+    .then((res) => {
+      if (!res.ok) throw new Error("Erreur HTTP " + res.status);
+      return res.json();
+    })
     .then((data) => {
       let allData = data;
 
@@ -84,8 +89,9 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch((err) => {
       console.error("Erreur lors du chargement du JSON :", err);
-      listFeed.innerHTML = `<p class="text-danger text-center mt-4">
+      listFeed.innerHTML = `<div class="text-center text-danger py-5">
+        <i class="bi bi-exclamation-triangle-fill"></i><br>
         Erreur de chargement des opportunités. Veuillez réessayer plus tard.
-      </p>`;
+      </div>`;
     });
 });
