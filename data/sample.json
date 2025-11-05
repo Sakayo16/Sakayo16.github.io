@@ -1,102 +1,181 @@
 [
   {
-    "title": "Mastercard Foundation Scholars Program",
+    "title": "Bourse d’Excellence Mastercard Foundation – Université d’Abomey-Calavi 2025",
     "organization": "Mastercard Foundation",
-    "country": "Afrique (divers pays)",
+    "country": "Bénin",
     "type": "Bourse",
-    "apply_url": "https://mastercardfdn.org/en/what-we-do/our-programs/mastercard-foundation-scholars-program/",
-    "description_short": "Programme de bourses pour jeunes Africains visant l’accès à l’enseignement supérieur de qualité et le développement en leadership.",
-    "image": "https://mastercardfdn.org/wp-content/uploads/2024/11/Scholars-Program-Africa.jpg",
-    "deadline": "2025-12-31"
+    "description_short": "Programme complet couvrant scolarité, logement, indemnité mensuelle et formation en leadership.",
+    "description_full": "Cette bourse prestigieuse s’adresse aux étudiants africains talentueux souhaitant poursuivre un cursus de licence ou de master à l’Université d’Abomey-Calavi. Le programme finance entièrement les frais de scolarité, fournit une allocation mensuelle, un hébergement, du matériel pédagogique, des formations avancées en leadership ainsi que des opportunités de mentorat.",
+    "image": "https://picsum.photos/seed/bourse1/600/400",
+    "link": "https://mastercardfdn.org/",
+    "deadline": "2025-08-31"
   },
   {
-    "title": "Internship: Priority Africa & External Relations – UNESCO",
-    "organization": "UNESCO",
-    "country": "France/Afrique",
+    "title": "Programme YALI – Mandela Washington Fellowship 2025",
+    "organization": "Département d'État des États-Unis",
+    "country": "États-Unis",
+    "type": "Formation",
+    "description_short": "Programme d'élite pour jeunes leaders africains avec séjour universitaire aux USA.",
+    "description_full": "Le Mandela Washington Fellowship est destiné aux jeunes leaders africains de 25 à 35 ans. Les candidats sélectionnés suivent une formation intensive dans une université américaine, spécialisée en leadership civique, gestion publique ou entrepreneuriat. Le programme comprend également un networking international et un suivi post-programme.",
+    "image": "https://picsum.photos/seed/yali/600/400",
+    "link": "https://yali.state.gov",
+    "deadline": "2024-09-12"
+  },
+  {
+    "title": "Stage PNUD – Programme Développement Durable 2025",
+    "organization": "Programme des Nations Unies pour le Développement",
+    "country": "Sénégal",
     "type": "Stage",
-    "apply_url": "https://careers.unesco.org/go/Internships-and-volunteers/783902/",
-    "description_short": "Stage ouvert pour jeunes diplômés intéressés par les affaires africaines et les relations internationales.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/UNESCO_Logo.jpg",
-    "deadline": "2025-10-25"
+    "description_short": "Stage de 6 mois en appui aux projets de développement communautaire.",
+    "description_full": "Le PNUD recrute des stagiaires pour accompagner la mise en œuvre de projets liés au développement durable, à la gestion de l’environnement et à la réduction de la pauvreté. Les stagiaires participeront à la rédaction de rapports, l'analyse des données et l’organisation d’ateliers régionaux.",
+    "image": "https://picsum.photos/seed/pnud/600/400",
+    "link": "https://www.undp.org",
+    "deadline": "2025-03-15"
   },
+
   {
-    "title": "Africa Scholarship Programme – Masters 2025/26",
-    "organization": "Wageningen University & Research",
-    "country": "Pays-Bas / Afrique",
-    "type": "Bourse",
-    "apply_url": "https://www.wur.nl/en/education-programmes/master/practical-information-masters/scholarships/africa-scholarship-programme.htm",
-    "description_short": "Bourse pour un programme de master visant des étudiants africains, entrée en 2025 ou 2026, choix parmi plusieurs disciplines.",
-    "image": "https://www.wur.nl/media/7903151/africa-scholarship-master-2025.jpg",
-    "deadline": "2025-02-01"
-  },
-  {
-    "title": "University of Lincoln Africa Scholarship – Postgraduate 2025/26",
-    "organization": "University of Lincoln",
-    "country": "Royaume-Uni / Afrique",
-    "type": "Bourse",
-    "apply_url": "https://www.lincoln.ac.uk/studywithus/scholarshipsandbursaries/africascholarship/",
-    "description_short": "Bourse de £4 000-£5 000 pour étudiants originaires d’Afrique inscrits en programme de master à l’Université de Lincoln.",
-    "image": "https://www.lincoln.ac.uk/media/africa-scholarship-2025.jpg",
-    "deadline": "2025-09-30"
-  },
-  {
-    "title": "Learn Africa Programme 2025",
-    "organization": "Fundación Mujeres por África",
+    "title": "Appel à Projets Innovants Orange Digital Ventures Africa 2025",
+    "organization": "Orange",
     "country": "Afrique",
-    "type": "Bourse / Leadership féminin",
-    "apply_url": "https://mujeresporafrica.es/en/2025-learn-africa-programme/",
-    "description_short": "Programme axé sur les femmes africaines et le leadership, éducation et recherche.",
-    "image": "https://example.com/learn_africa_2025.jpg",
-    "deadline": "2025-11-15"
+    "type": "Appel à projets",
+    "description_short": "Financement jusqu’à 50 000 € pour startups technologiques africaines.",
+    "description_full": "Orange Digital Ventures Africa soutient les startups dans les domaines de la santé digitale, fintech, e-éducation, agritech et énergie. Les projets retenus bénéficient d’un financement pouvant atteindre 50 000 €, d’un accompagnement technique et d’un mentorat international.",
+    "image": "https://picsum.photos/seed/orange/600/400",
+    "link": "https://orangefab.africa",
+    "deadline": "2025-11-01"
   },
+
   {
-    "title": "SI Scholarship for Global Professionals 2026",
-    "organization": "Swedish Institute",
-    "country": "Suède / International",
-    "type": "Bourse Master",
-    "apply_url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
-    "description_short": "Bourse pour professionnels internationaux inscrits à un master dans une université suédoise, avec focus leadership et expérience.",
-    "image": "https://si.se/globalassets/bilder/si-scholarship-logo.png",
-    "deadline": "2026-02-25"
+    "title": "Bourse DAAD EPOS 2025 – Études de Master en Allemagne",
+    "organization": "DAAD",
+    "country": "Allemagne",
+    "type": "Bourse",
+    "description_short": "Bourse complète pour étudiants africains souhaitant étudier en Allemagne.",
+    "description_full": "Le programme german DAAD EPOS finance des masters liés aux sciences sociales, ingénierie, économie, environnement et santé publique. Les candidats retenus reçoivent une allocation mensuelle, assurance maladie, voyage aller-retour et frais de scolarité.",
+    "image": "https://picsum.photos/seed/daad/600/400",
+    "link": "https://daad.de",
+    "deadline": "2024-12-31"
   },
+
   {
-    "title": "Erasmus Mundus Joint Masters 2026/27",
-    "organization": "Erasmus+ (Commission Européenne)",
-    "country": "Europe / International",
-    "type": "Bourse Master",
-    "apply_url": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters",
-    "description_short": "Masters conjoints internationaux financés par Erasmus+ pour étudiants du monde entier.",
-    "image": "https://erasmus-plus.ec.europa.eu/sites/default/files/2024-09/erasmus-logo.png",
-    "deadline": "2026-01-15"
+    "title": "Offre d’Emploi – Analyste Data Junior chez Deloitte Afrique",
+    "organization": "Deloitte",
+    "country": "Côte d’Ivoire",
+    "type": "Emploi",
+    "description_short": "Analyse des données, visualisation et interprétation pour clients corporate.",
+    "description_full": "Deloitte Afrique recrute un analyste data junior pour la collecte, structuration, modélisation et visualisation de données stratégiques. Le candidat doit maîtriser Excel, Power BI ou Tableau, ainsi que les langages Python ou SQL.",
+    "image": "https://picsum.photos/seed/deloitte/600/400",
+    "link": "https://deloitte.com",
+    "deadline": "2025-05-01"
   },
+
   {
-    "title": "SOAS Master’s Scholarships for International Students 2025/26",
-    "organization": "SOAS University of London",
-    "country": "Royaume-Uni / International",
-    "type": "Bourse Master",
-    "apply_url": "https://www.soas.ac.uk/study/student-life/finance/scholarships/soas-masters-scholarships-international-2025",
-    "description_short": "Bourses pour étudiants internationaux entrant en master à SOAS, Université de Londres.",
-    "image": "https://www.soas.ac.uk/static/events/2025/soas-scholarships-banner.jpg",
-    "deadline": "2025-04-30"
+    "title": "Programme Teach For All – Enseignants Leaders Afrique 2025",
+    "organization": "Teach For All",
+    "country": "Afrique",
+    "type": "Emploi",
+    "description_short": "Programme de deux ans pour devenir enseignant-leader dans une école partenaire.",
+    "description_full": "Teach For All offre un programme rémunéré de deux ans permettant d’enseigner dans des écoles à ressources limitées tout en recevant une formation en leadership éducatif.",
+    "image": "https://picsum.photos/seed/teachforall/600/400",
+    "link": "https://teachforall.org",
+    "deadline": "2025-04-15"
   },
+
   {
-    "title": "Young Professionals Programme (YPP) 2025 – United Nations Secretariat",
-    "organization": "United Nations Secretariat",
+    "title": "Stage Banque Mondiale – Young Professionals Program 2025",
+    "organization": "Banque Mondiale",
+    "country": "États-Unis & Afrique",
+    "type": "Stage",
+    "description_short": "Stage international pour jeunes diplômés en développement économique.",
+    "description_full": "Le YPP de la Banque Mondiale propose des stages et des formations pour jeunes professionnels intéressés par le développement économique, les politiques publiques, les statistiques, la finance et le management de projets.",
+    "image": "https://picsum.photos/seed/bm/600/400",
+    "link": "https://www.worldbank.org",
+    "deadline": "2025-06-10"
+  },
+
+  {
+    "title": "Bourse Eiffel 2025 – Master et Doctorat en France",
+    "organization": "Campus France",
+    "country": "France",
+    "type": "Bourse",
+    "description_short": "Bourse prestigieuse financée par le gouvernement français.",
+    "description_full": "La bourse Eiffel offre un soutien financier complet pour les étudiants internationaux en master ou doctorat, couvrant les frais d’installation, une allocation mensuelle, les transports et l’assurance.",
+    "image": "https://picsum.photos/seed/eiffel/600/400",
+    "link": "https://campusfrance.org",
+    "deadline": "2024-12-10"
+  },
+
+
+  {
+    "title": "Google Career Certificates – Bourses IT Support & Data Analytics",
+    "organization": "Google",
     "country": "International",
-    "type": "Emploi Jeunes Diplômés",
-    "apply_url": "https://www.un.org/en/careers/young-professionals-programme",
-    "description_short": "Programme de recrutement pour jeunes diplômés talentueux afin d’entrer dans la carrière internationale à l’ONU.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/UN_emblem_blue.svg",
+    "type": "Formation",
+    "description_short": "Formation gratuite avec certificat Google reconnu mondialement.",
+    "description_full": "Google propose des certificats professionnels en IT Support, Data Analytics, UX Design et Project Management. Les participants suivent des cours en ligne structurés, accessibles à tous niveaux.",
+    "image": "https://picsum.photos/seed/google1/600/400",
+    "link": "https://grow.google",
     "deadline": "2025-12-31"
   },
+
   {
-    "title": "YPP Young Professionals Programme – World Trade Organization",
-    "organization": "World Trade Organization",
+    "title": "Programme African Leadership Academy (ALA) 2025",
+    "organization": "ALA",
+    "country": "Afrique du Sud",
+    "type": "Formation",
+    "description_short": "Formation en leadership pour jeunes étudiants africains talentueux.",
+    "description_full": "L’ALA offre un programme en leadership et entrepreneuriat destiné aux jeunes leaders africains de 15 à 19 ans. L’académie couvre les frais de formation et propose un réseau d’anciens prestigieux.",
+    "image": "https://picsum.photos/seed/ala/600/400",
+    "link": "https://africanleadershipacademy.org",
+    "deadline": "2025-02-20"
+  },
+
+
+  {
+    "title": "Offre d’Emploi – Ingénieur Cloud AWS Junior (Télétravail)",
+    "organization": "AWS Partner Network",
     "country": "International",
-    "type": "Emploi Jeunes Diplômés",
-    "apply_url": "https://www.wto.org/english/thewto_e/vacan_e/ypp_e.htm",
-    "description_short": "Programme visant à attirer des jeunes professionnels venant de pays sous-représentés dans le secrétariat de l'OMC.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/WTO_logo.svg",
-    "deadline": "2025-11-30"
+    "type": "Emploi",
+    "description_short": "Ingénieur cloud AWS pour support & architecture (remote).",
+    "description_full": "Une entreprise partenaire AWS recherche un ingénieur cloud junior pour participer au déploiement de services Cloud (EC2, Lambda, S3) et au support technique. Télétravail total accepté.",
+    "image": "https://picsum.photos/seed/aws/600/400",
+    "link": "https://aws.amazon.com",
+    "deadline": "2025-07-01"
+  },
+
+  {
+    "title": "Bourse Chevening 2025 – Master au Royaume-Uni",
+    "organization": "Gouvernement du Royaume-Uni",
+    "country": "Royaume-Uni",
+    "type": "Bourse",
+    "description_short": "Bourse d’excellence pour jeunes leaders internationaux.",
+    "description_full": "La bourse Chevening finance un master complet au Royaume-Uni pour les futurs leaders engagés dans le développement communautaire, social, économique ou politique.",
+    "image": "https://picsum.photos/seed/chevening/600/400",
+    "link": "https://chevening.org",
+    "deadline": "2024-11-05"
+  },
+
+  {
+    "title": "Programme Women Techmakers 2025",
+    "organization": "Google",
+    "country": "International",
+    "type": "Formation",
+    "description_short": "Programme d'autonomisation et formation pour femmes dans la tech.",
+    "description_full": "Women Techmakers propose des bourses, mentorats, formations en technologie, cybersécurité, cloud computing et entrepreneuriat numérique pour les femmes dans le monde entier.",
+    "image": "https://picsum.photos/seed/wtm/600/400",
+    "link": "https://womenwithgoogle.com",
+    "deadline": "2025-03-18"
+  },
+
+  {
+    "title": "Appel à Projets UNESCO – Éducation et Culture 2025",
+    "organization": "UNESCO",
+    "country": "International",
+    "type": "Appel à projets",
+    "description_short": "Financement pour initiatives éducatives, culturelles et patrimoniales.",
+    "description_full": "L’UNESCO soutient les organisations et individus proposant des projets visant à protéger la culture, améliorer la qualité de l’éducation et renforcer l’inclusion sociale.",
+    "image": "https://picsum.photos/seed/unesco1/600/400",
+    "link": "https://unesco.org",
+    "deadline": "2025-10-12"
   }
 ]
