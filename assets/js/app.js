@@ -1,9 +1,11 @@
+// assets/js/app.js
 document.addEventListener("DOMContentLoaded", function () {
   const listFeed = document.getElementById("listFeed");
   const searchInput = document.getElementById("searchInput");
   const typeFilter = document.getElementById("typeFilter");
   const countryFilter = document.getElementById("countryFilter");
 
+  // ✅ Fonction pour afficher les opportunités
   function displayOpportunities(data) {
     listFeed.innerHTML = "";
 
@@ -38,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // ✅ Message de chargement
   listFeed.innerHTML = `
     <div class="text-center my-5">
       <div class="spinner-border text-primary" role="status"></div>
@@ -45,9 +48,9 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   `;
 
-  // ⚠️ Mets ici ton vrai lien GitHub Pages
-  const jsonURL = "https://sakayo16.github.io/data/sample.json"; 
-  // 👉 si ton projet s'appelle "opportunites-afrique", fais :
+  // ✅ Chemin absolu pour GitHub Pages
+  const jsonURL = "https://sakayo16.github.io/data/sample.json";
+  // ⚠️ Si ton dépôt s’appelle “opportunites-afrique”, utilise plutôt :
   // const jsonURL = "https://sakayo16.github.io/opportunites-afrique/data/sample.json";
 
   fetch(jsonURL, { cache: "no-store" })
@@ -56,14 +59,18 @@ document.addEventListener("DOMContentLoaded", function () {
       return res.json();
     })
     .then((data) => {
-      displayOpportunities(data);
+      let allData = data;
 
+      // Affichage initial
+      displayOpportunities(allData);
+
+      // ✅ Filtres dynamiques
       function applyFilters() {
         const search = (searchInput?.value || "").toLowerCase();
         const type = (typeFilter?.value || "").toLowerCase();
         const country = (countryFilter?.value || "").toLowerCase();
 
-        const filtered = data.filter((item) => {
+        const filtered = allData.filter((item) => {
           const matchSearch =
             item.title.toLowerCase().includes(search) ||
             item.organization.toLowerCase().includes(search) ||
